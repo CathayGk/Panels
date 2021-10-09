@@ -21,7 +21,7 @@ NetflixSelect = script-name=NetflixSelect, update-interval=3600
 #流量统计 点击以切换网络界面
 TrafficStatistics = type=generic,timeout=10,script-path= https://raw.githubusercontent.com/CathayGk/Panels/main/sur/trafficstatistics.js ,argument=icon=arrow.up.arrow.down.circle&color=#5d84f8
 
-#网络详情
+#網路詳情
 #应当修改的字段 group 代理策略组名称
 NET_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/CathayGk/Panels/main/sur/net_info.js,argument=icon=externaldrive.connected.to.line.below&color=#9a7ff7&group=Master
 
