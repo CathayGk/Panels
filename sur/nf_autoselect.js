@@ -19,7 +19,7 @@ const AREA_TEST_FILM_ID = 80018499
 let params = getParams($argument)
 
 ;(async () => {
-let netflixGroup = params.netflixGroup
+let netflixGroup = params.奈飞视频
 //将策略组名称创建为持久化数据
 $persistentStore.write(netflixGroup,"NFGroupName");
 
